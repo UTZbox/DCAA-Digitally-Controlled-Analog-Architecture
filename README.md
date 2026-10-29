@@ -5,6 +5,7 @@ The DCAA is a circuit architecture designed to control analog signals without ne
 them. Control is performed digitally, which allows values to be stored and remotely controlled.
 The circuit can replace potentiometers or switches. Instead of conventional switching, signal
 relays are used. Diﬀerential LDRs are used in place of potentiometers.
+The circuit is based on the Teensy 4 platform. 
 
 ### Applications:
 The DCAA can be used wherever analog circuits—especially in the audio domain—require the
