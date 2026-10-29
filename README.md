@@ -53,15 +53,17 @@ Maximum current consumption is approximately 250 mA.
 ### MIDI Assignment Table:
 Only commands on MIDI Channel 1 are received and processed.
 
-Output MIDI Command MIDI No. MIDI Value
-LDR 1 ControlChange 7 (Volume) 0-128
-LDR 2 ControlChange 8 (notSpec) 0-128
-Relais 1 ControlChange 68 (notSpec) >100 = ON // <99 = OFF
-Relais 2 ControlChange 69 (notSpec) >100 = ON // <99 = OFF
-Preset 0 ProgrammChange 0 (Manual) -
-Preset 1 ProgrammChange 1 (Preset 1 -
-Preset 2 ProgrammChange 2 (Preset 2) -
-Preset 3 ProgrammChange 3 (Preset 2) -
+| Output   | MIDI Command  | MIDI No.     | MIDI Value                     |
+|----------|---------------|--------------|--------------------------------|
+| LDR 1    | ControlChange | 7 (Volume)   | 0–128                          |
+| LDR 2    | ControlChange | 8 (notSpec)  | 0–128                          |
+| Relais 1 | ControlChange | 68 (notSpec) | >= 100 = ON / <= 99 = OFF      |
+| Relais 2 | ControlChange | 68 (notSpec) | >= 100 = ON / <= 99 = OFF      |
+| Preset 0 | ProgramChange | 0 (Manual).  | –                              |
+| Preset 1 | ProgramChange | 1 (Preset 1) | –                              |
+| Preset 2 | ProgramChange | 2 (Preset 2) | –                              |
+| Preset 3 | ProgramChange | 3 (Preset 3) | –                              |
+
 
 ###Credits
 Author: Mike Utz
